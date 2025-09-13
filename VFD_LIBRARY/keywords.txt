@@ -1,0 +1,5 @@
+VFD	KEYWORD1
+writeBigMsg	KEYWORD2
+hScrollBigMsg	KEYWORD2
+vScrollBigMsg	KEYWORD2
+

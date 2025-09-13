@@ -1,0 +1,50 @@
+#ifndef VFD_H
+#define VFD_H
+
+#include <Arduino.h>
+// ============================================================================
+// Filename: VFD.h
+// Version: 1.0.0
+// Date: 2025-09-12
+// Author: Your Name
+// Maintainer: you@example.com
+// Description:
+//   Header file for the VFD library to control the Noritake 20S401DA1
+//   Vacuum Fluorescent Display (4x20). Provides functionality for:
+//     - Basic display commands (clear, cursor positioning, brightness)
+//     - Custom glyph definition and usage
+//     - BIGASCII character rendering (A-Z, 0-9)
+//     - Horizontal and vertical scrolling of BIGASCII text
+// ============================================================================
+
+#define ESC 0x1B
+
+class VFD {
+public:
+    VFD(HardwareSerial &serial);
+
+    void begin(long baud = 9600);
+    void clear();
+    void home();
+    void setCursor(uint8_t row, uint8_t col);
+    void setBrightness(uint8_t level);
+    void write(const char* text);
+    void defineGlyph(uint8_t slot, const uint8_t bitmap[8]);
+    void writeGlyph(uint8_t slot);
+
+    void writeBigMsg(const char* msg, bool center = true, bool vscroll = false);
+    void hScrollBigMsg(const char* msg, unsigned long delayMs = 200);
+    void vScrollBigMsg(const char* msg, unsigned long delayMs = 500);
+
+private:
+    HardwareSerial* _serial;
+    void send(const char* text);
+    void cmd(uint8_t b1, uint8_t b2 = 0, uint8_t b3 = 0, uint8_t b4 = 0);
+    void initBigAscii();
+
+    // BIGASCII font for letters A-Z and digits 0-9
+    static const char* BIGASCII[36][4];
+};
+
+#endif
+

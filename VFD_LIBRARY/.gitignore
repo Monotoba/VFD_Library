@@ -1,0 +1,61 @@
+# ---- Arduino / PlatformIO ----
+
+# Temparary file
+*~
+
+# PlatformIO build system
+.pio/
+.pioenvs/
+.piolibdeps/
+.pio/build/
+.pio/libdeps/
+.pio/test/
+
+# Arduino IDE build files
+*.elf
+*.eep
+*.bin
+*.hex
+*.map
+
+# PlatformIO-specific files
+.clang_complete
+.gcc-flags.json
+.ccls-cache/
+.vscode/.browse.VC.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/
+.vscode/.browse.c_cpp.db*
+
+# Arduino user libraries (if not part of repo)
+lib/
+
+# PlatformIO test cache
+.test/
+
+# ---- Editor / OS Files ----
+# Backup and swap files
+*~
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# ---- Logs ----
+*.log
+
+# ---- Other ----
+# Temporary compiled object files
+*.o
+*.d
+

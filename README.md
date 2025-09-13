@@ -122,4 +122,8 @@ This library is released under the **MIT License**. See LICENSE file.
 
 ---
 
+# Note
+This README is duplicated at the repository root.  
+If you update one, please update the other.
 
+---

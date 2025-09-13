@@ -1,0 +1,45 @@
+# ------------------------------
+# Project Root .gitignore
+# ------------------------------
+
+# Ignore PlatformIO build output
+VFD_LIBRARY/.pio/
+VFD_LIBRARY/.pioenvs/
+VFD_LIBRARY/.piolibdeps/
+VFD_LIBRARY/pio/build
+VFD_LIBRARY/pio/libdeps
+VFD_LIBRARY/pio/test
+
+# Arduino build artifacts
+VFD_LIBRARY/src/*.elf
+VFD_LIBRARY/src/*.bin
+VFD_LIBRARY/src/*.hex
+
+# Temporary / backup files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# IDE/editor specific folders
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Node / Python cache (if used in tooling)
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+

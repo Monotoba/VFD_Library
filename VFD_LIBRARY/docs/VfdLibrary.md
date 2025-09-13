@@ -124,6 +124,6 @@ This library is released under the **MIT License**.
 
 ## Author & Maintainer
 
-* **Author**: R. MOrgan
-* **Maintainer**: [rmorgan](mailto:rmorgan62@gmail.com)
+* **Author**: Randall Morgan
+* **Maintainer**: [https://github.com/Monotoba/VFD_Library](https://github.com/Monotoba/VFD_Library)
 

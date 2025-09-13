@@ -3,7 +3,7 @@
 // Version: 1.0.0
 // Date: 2025-09-12
 // Author: Randall MOrgan
-// Maintainer: rmorgan62@gmail.com
+// Maintainer: https://github.com/Monotoba/VFD_Library
 // Description:
 //   Example program for the VFD library demonstrating how to identify the
 //   correct serial baudrate for the Noritake 20S401DA1 Vacuum Fluorescent

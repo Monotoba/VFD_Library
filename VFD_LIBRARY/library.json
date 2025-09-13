@@ -1,0 +1,20 @@
+{
+  "name": "VFDLib",
+  "version": "1.0.0",
+  "description": "Arduino library for Noritake 20S401DA1 Vacuum Fluorescent Displays (4x20).",
+  "keywords": ["display", "VFD", "Noritake", "VFDLib"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Monotoba/VFD_Library/"
+  },
+  "authors": [
+    {
+      "name": "Randall Morgan",
+      "email": "https://github.com/monotoba",
+      "maintainer": true
+    }
+  ],
+  "frameworks": ["arduino"],
+  "platforms": ["*"]
+}
+

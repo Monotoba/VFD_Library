@@ -3,7 +3,7 @@
 // Version: 1.0.0
 // Date: 2025-09-12
 // Author: Randall Morgan
-// Maintainer: rmorgan62@gmail.com
+// Maintainer: https://github.com/Monotoba/VFD_Library/
 // Description:
 //   Implementation file for the VFD library to control the Noritake 20S401DA1
 //   Vacuum Fluorescent Display (4x20). Provides functionality for:

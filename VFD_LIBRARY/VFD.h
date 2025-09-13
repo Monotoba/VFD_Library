@@ -2,8 +2,8 @@
 // Filename: VFD.h
 // Version: 1.0.0
 // Date: 2025-09-12
-// Author: Your Name
-// Maintainer: you@example.com
+// Author: Randall Morgan
+// Maintainer: https://github.com/Monotoba/VFD_Library/
 // Description:
 //   Header file for the VFD library to control the Noritake 20S401DA1
 //   Vacuum Fluorescent Display (4x20). Provides functionality for:

@@ -1,3 +1,28 @@
+// ============================================================================
+// Filename: demo.ino
+// Version: 1.0.0
+// Date: 2025-09-12
+// Author: Randall Morgan
+// Maintainer: rmorgan62@gmail.com
+// Description:
+//   Comprehensive demo program for the VFD library controlling the
+//   Noritake 20S401DA1 Vacuum Fluorescent Display (4x20).
+//
+//   Demonstrates the following features of the VFD library:
+//     - Initialization, clearing the screen, and brightness control
+//     - Defining and displaying custom glyphs (smiley, heart, poop, star)
+//     - Rendering BIGASCII text (letters A–Z and digits 0–9)
+//     - Centering BIGASCII messages on the display
+//     - Horizontal scrolling of BIGASCII text across the screen
+//     - Vertical scrolling of BIGASCII text across multiple lines
+//     - Stepwise demonstration of brightness levels (1–4)
+//
+//   This file is meant to serve as both a functional demo and a usage guide
+//   for developers integrating the VFD library into their Arduino projects.
+// ============================================================================
+
+
+
 #include <VFD.h>
 
 VFD vfd(Serial);

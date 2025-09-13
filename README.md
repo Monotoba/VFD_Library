@@ -106,6 +106,8 @@ void loop() {
 }
 ```
 
+[![Arduino CI](https://github.com/Monotoba/VFD_Library/actions/workflows/ci.yml/badge.svg)](https://github.com/Monotoba/VFD_Library/actions/workflows/ci.yml)
+
 ---
 
 ## License

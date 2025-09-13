@@ -1,4 +1,9 @@
-# VFD\_Library
+
+# VFD_Library
+
+[![Build Status](https://github.com/Monotoba/VFD_Library/actions/workflows/ci.yml/badge.svg)](https://github.com/Monotoba/VFD_Library/actions/workflows/ci.yml) [![Arduino Library Version](https://img.shields.io/badge/arduino-v1.0.0-blue)](https://www.arduino.cc/reference/en/) [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+---
 
 ## Overview
 
@@ -25,23 +30,25 @@ This library is designed to work with **ACEBOTT ESP32-MAX** or any Arduino-compa
 ## Hardware Connection
 
 * **VFD TX / RX** → Arduino/ESP32 Serial port (e.g., `Serial1`)
-* **VFD Power**: Check datasheet for 20S401DA1 voltage and current requirements (typically 20-25V filament and 5V logic)
-* Ensure proper level conversion if your MCU is 3.3V and VFD logic is 5V.
+* **VFD Power**: Check datasheet for 20S401DA1 voltage and current requirements (typically 20–25V filament and 5V logic)
+* Ensure proper level conversion if your MCU is 3.3V and VFD logic is 5V
 
 ---
 
 ## Library Files
 
 ```
-VFD_Library/
+
+VFD\_Library/
 ├─ VFD.h
 ├─ VFD.cpp
 ├─ library.properties
 ├─ keywords.txt
 ├─ .gitignore
 └─ examples/
-   └─ demo.ino
-```
+└─ demo.ino
+
+````
 
 ### `VFD.h`
 
@@ -57,7 +64,6 @@ VFD_Library/
 ### `examples/demo.ino`
 
 * Demonstrates all features of the library:
-
   * Custom glyphs
   * BIGASCII single-word display
   * Horizontal and vertical scrolling of BIGASCII text
@@ -104,13 +110,13 @@ void setup() {
 void loop() {
     // Optional continuous demo
 }
-```
+````
 
 ---
 
 ## License
 
-This library is released under the **MIT License**. See LICENSE file.
+This library is released under the **MIT License**. See [LICENSE](LICENSE) file.
 
 ---
 
@@ -122,8 +128,8 @@ This library is released under the **MIT License**. See LICENSE file.
 
 ---
 
-## Author & Maintainer
+## Note
 
-* **Author**: Randall Morgan
-* **Maintainer**: [github](https://github.com/Monotoba/VFD_Library/)
+This README is duplicated at the repository root.
+If you update one, please update the other.
 

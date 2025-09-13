@@ -122,8 +122,4 @@ This library is released under the **MIT License**. See LICENSE file.
 
 ---
 
-## Author & Maintainer
-
-* **Author**: Your Name
-* **Maintainer**: [you@example.com](mailto:you@example.com)
 
